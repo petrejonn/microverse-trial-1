@@ -6,16 +6,50 @@ main{
     justify-content: center;
 }
 
+#title{
+    color: grey;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 label {
     line-height: 40px;
+    font-size: large;
+    margin-right: 20px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 576px) {
     /* . {
         font-family: ;
     } */
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 12px;
+}
+
+#submit{
+    border-radius: 5px;
+    border: 1px solid blue;
+    font-size: 15px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    padding: 6px;
+}
+textarea{
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 12px;
+}
+
+select{
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 12px;
 }
