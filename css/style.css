@@ -1,5 +1,5 @@
 main{
-    min-width: 50%;
+    /* min-width: 50%; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -22,9 +22,7 @@ label {
 }
 
 @media screen and (max-width: 576px) {
-    /* . {
-        font-family: ;
-    } */
+    min-width: 100%;
 }
 
 input{
